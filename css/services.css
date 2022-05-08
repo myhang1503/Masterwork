@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.header .dropdown-menu{
+    width: 180px;
+    height: 150px;
+    position: relative;
+    left: -60px;
+    margin-top: 15px;
+    line-height: 35px;
+    border-radius: 8px;
+}
+.header .dropdown-menu::before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: none;
+    border-bottom: none;
+    transform: translateX(-50%) rotateZ(45deg);
+    position: absolute;
+    top: -7px;
+    left: 49%;
+    z-index: 1001; 
+}
+.header .btn{
+    height: 55px;
+    width: 200px;
+    line-height: 40px;
+}
+.header .nab::after,.header .dropdown-item::after,.header .nav::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background: red;
+    transition: width 0.5s linear 0.1s;
+}
+.header .nav-item .nav-link:hover,.header .nav-item .dropdown-item:hover,
+.header .nav-item .angle:hover{
+    color: brown;
+}
+.header .nab:hover::after,.header .nav:hover::after{  
+    width: 50%;
+}
+.header .dropdown-item:hover:after{
+    width: 20%;
+}
+.hi{
+    background: #e9f1f9;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+.hi i{
+    font-size: 10px;
+    margin-right: 2px;
+}
+.hi a{
+    text-decoration: none;
+    color: brown;
+}
+.hi a:hover{
+    text-decoration:underline;
+}
+.bestservives .container .tool{
+    text-align: center;
+    padding: 30px 30px;
+}
+.bestservives .container .row-cols-2 img{
+    background:  #e9f1f9;
+    padding: 15px;
+    width:70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(222, 220, 220);
+    margin-bottom: 15px;
+}
+.bestservives .container .row-cols-2 h5:hover{
+    color: brown;
+}
+.bestservives{
+    margin-bottom: 50px;
+    
+}
+.bestservives .btn{
+    height: 50px;
+    width: 150px;
+    line-height: 40px;
+}
+.product .container .tool{
+    text-align: center;
+    padding: 30px 30px;
+}
+.product{
+    background:  #e9f1f9;
+}
+.product .row1{
+    display: flex;
+}
+.product  h4{
+    color: brown;
+    width:40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(222, 220, 220);
+
+}
+.product .container .row .col2 img{
+   border-radius: 50%;
+   height: 350px;
+   width: 350px;
+   transform: translate(0,15px);
+   transition: all 0.8s;
+   border: 5px solid white;
+}
+.product .container .row .col2 img:hover{
+    transform: translate(0,0);
+}
+.product .lang h5:hover{
+    color: brown;
+}
+.features{
+    margin-bottom: 70px;
+}
+.features .container .tool{
+    text-align: center;
+    padding: 30px 30px;
+}
+.features .col {
+    border: 1px solid rgba(226, 223, 223,0.5);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.features .content{
+    padding: 30px 20px 50px 20px;
+}
+.features .col img{
+    width: 100%;
+    transform: translate(0,15px);
+    transition: all 0.8s;
+    border-radius: 8px;
+}
+.features .col img:hover{
+    transform: translate(0,0);
+}
+.features .row .content i{
+    background: rgba(240, 215, 215, 0.5);
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    color:  rgb(233, 129, 160);
+    font-size: 10px;
+}
+.features .row .content span{
+    font-weight: bold;
+}
+.features .btn{
+    height: 50px;
+    width: 150px;
+    line-height: 40px;
+}
+.companny .btn{
+    width: 80px;
+    
+}
+.companny{
+    background: #e9f1f9;
+    height: 500px;
+}
+.companny .col3{
+    background: white;
+    padding: 30px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(222, 220, 220);
+}   
+.companny .container{
+    padding: 50px 0;
+}
+.companny .container .row2 a:hover{
+    color: rgb(213, 22, 79);
+}
+.companny .container  .row2 a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 10px;
+}
+.companny .line{
+    border-top: 1px solid rgba(200, 196, 196, 0.7) ;
+    margin-top: 50px;
+}
+.companny .col5{
+    text-decoration: none;
+    padding: 30px 0px;
+}
+.col6 {
+    text-align: right;
+}
+.col6 a,.col7 a{
+    color: black;
+    text-decoration: none;
+}
+.col6 a:hover , .col7 a:hover{
+    color: rgb(213, 22, 79);
+}
