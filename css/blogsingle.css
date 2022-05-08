@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.header .dropdown-menu{
+    width: 180px;
+    height: 150px;
+    position: relative;
+    left: -60px;
+    margin-top: 15px;
+    line-height: 35px;
+    border-radius: 8px;
+}
+.header .dropdown-menu::before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-right: none;
+    border-bottom: none;
+    transform: translateX(-50%) rotateZ(45deg);
+    position: absolute;
+    top: -7px;
+    left: 49%;
+    z-index: 1001; 
+}
+.header .btn{
+    height: 55px;
+    width: 200px;
+    line-height: 40px;
+}
+.header .nab::after,.header .dropdown-item::after,.header .nav::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background: red;
+    transition: width 0.5s linear 0.1s;
+}
+.header .nav-item .nav-link:hover,.header .nav-item .dropdown-item:hover,
+.header .nav-item .angle:hover{
+    color: brown;
+}
+.header .nab:hover::after,.header .nav:hover::after{  
+    width: 50%;
+}
+.header .dropdown-item:hover:after{
+    width: 20%;
+}
+.hi{
+    background: #e9f1f9;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+.hi i{
+    font-size: 10px;
+    margin-right: 2px;
+}
+.hi a{
+    text-decoration: none;
+    color: brown;
+}
+.hi a:hover{
+    text-decoration:underline;
+}
+.masterwork .container .content .btn2{
+    color: rgb(26, 125, 72);
+    background: rgba(76, 160, 107, 0.2);
+    border-style: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.masterwork .container .content{
+    padding: 30px 150px;
+}
+.masterwork .container .content .file{
+    transition: all 1s;
+    transform: translate(0,15px);
+    border-radius: 5px;
+}
+.masterwork .container .content  .file:hover{
+    
+    transform: translate(0,0);
+}
+.masterwork .container .content .lag{
+    display: flex;
+}
+.masterwork .container .content .lag .img1 img{
+    width: 100%;
+}
+.masterwork .container .content .lag .img1{
+    margin-right: 15px;
+}
+.masterwork .line{
+    background: #e9f1f9;
+    border-left: 4px solid black ;
+    padding: 30px 40px;
+}
+.prev  .lag{
+    display: flex;
+    font-weight: 500;
+}
+.prev{
+    border-top: 1px solid rgba(161, 159, 159,0.5);
+    border-bottom: 1px solid rgba(161, 159, 159,0.5);
+    padding: 20px 0;
+}
+.prev  .lag .img1 img{
+    width: 100%;
+    border-radius: 5px;
+}
+.prev  .lag .img1{
+    margin-right: 25px;
+}
+.prev .col .lag:hover{
+    color: brown;
+}
+.prev i{
+    font-size: 10px;
+}
+.comment .img1 img{
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+}
+.comment  .lagg{
+    display: flex;
+}
+.comment .liner:hover{
+    text-decoration: underline;
+}
+.relate  .row .col img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+}
+.relate  .row .col .image{
+    position: relative;
+    width: 100%;
+}
+.relate  .row .col .item{
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    width: 98%;
+}
+.relate  .row .col:hover .item .content h4{
+    color: rgb(213, 22, 79);
+}
+
+.relate  .row .col{
+    
+    transform: translate(0,15px);
+    transition: all 0.5s;
+}
+.relate  .row .col1:hover{
+    transform: translate(0,0);
+}
+.relate  .row .col:hover .item{
+    box-shadow: 5px 5px 15px 10px rgb(228, 228, 228);
+}
+.relate  .row .col .item .content{
+    padding: 30px;
+}
+.w3l-blog-single .w3l-blog-single6 form.w3l-forms-29-form {
+    margin: 0px auto;
+    max-width: 750px;
+}
+
+
+
+.companny .btn{
+    width: 80px;
+    
+}
+.companny{
+    background: #e9f1f9;
+    height: 500px;
+}
+.companny .col3{
+    background: white;
+    padding: 30px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(222, 220, 220);
+}   
+.companny .container{
+    padding: 50px 0;
+}
+.companny .container .row2 a:hover{
+    color: rgb(213, 22, 79);
+}
+.companny .container  .row2 a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 10px;
+}
+.companny .line{
+    border-top: 1px solid rgba(200, 196, 196, 0.7) ;
+    margin-top: 50px;
+}
+.companny .col5{
+    text-decoration: none;
+    padding: 30px 0px;
+}
+.col6 {
+    text-align: right;
+}
+.col6 a,.col7 a{
+    color: black;
+    text-decoration: none;
+}
+.col6 a:hover , .col7 a:hover{
+    color: rgb(213, 22, 79);
+}
