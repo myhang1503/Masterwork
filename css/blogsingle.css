@@ -7,6 +7,13 @@ body {
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
   }
+.header{
+    position: fixed !important;
+    z-index: 1001;
+    width: 100%;
+    box-shadow: 0 3px 9px rgb(0 0 0 / 5%);
+    background-color: #ffffff;
+}
 .header .dropdown-menu{
     width: 180px;
     height: 150px;
@@ -57,6 +64,7 @@ body {
     background: #e9f1f9;
     margin-bottom: 20px;
     line-height: 50px;
+    padding-top: 80px;
 }
 .hi i{
     font-size: 10px;
